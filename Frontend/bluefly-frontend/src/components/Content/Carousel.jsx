@@ -8,10 +8,10 @@ import slide4 from '../assets/slide4.webp'
 import './Carousel.css'
 const Slideshow = () => {
   const slides = [
-    { image: {slide1}, text: "Welcome to Our Store" },
-    { image: {slide2}, text: "Discover Amazing Deals" },
-    { image: {slide3}, text: "Shop Your Favorite Items" },
-    { image: {slide4}, text: "Hurry, Limited Offers!" }
+    { image: slide1, text: "Welcome to Our Store" },
+    { image: slide2, text: "Discover Amazing Deals" },
+    { image: slide3, text: "Shop Your Favorite Items" },
+    { image: slide4, text: "Hurry, Limited Offers!" }
   ]; // Replace with your image URLs and text
 
   const settings = {
